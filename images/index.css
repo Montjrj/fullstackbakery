@@ -1,0 +1,64 @@
+body{
+    background-color: whitesmoke
+}
+nav{
+    display: flex;
+    justify-content: end;
+    gap: 3ch;
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+}
+
+li{
+    background-color: maroon;
+    color:white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+
+}
+
+box , article{ 
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+main{
+    display: flex;
+    align-items: baseline;
+    gap: 2ch;
+
+}
+
+.brand{
+    color: maroon;
+    font-size:x-large;
+    font-weight: bolder;
+    font-display:block;
+
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.testimonial{
+    background-color: papayawhip;
+}
